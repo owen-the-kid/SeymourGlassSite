@@ -1,0 +1,130 @@
+body
+{
+    background-color: black;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body::before
+{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+#aboutArticle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#aboutArticle h1
+{
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#aboutArticle h2
+{
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#aboutArticle > p
+{
+    line-height: 1.8;
+    font-size: 1.05em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#aboutArticle a
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.contributor-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.profile-card
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.profile-image
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-info
+{
+    flex: 1;
+}
+
+.profile-info h3
+{
+    margin: 0 0 10px 0;
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    font-size: 1.3em;
+}
+
+.profile-info .role
+{
+    margin: 0 0 10px 0;
+    color: #aaa;
+    font-style: italic;
+    font-size: 0.95em;
+}
+
+.profile-info .description
+{
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px)
+{
+    .profile-card
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image
+    {
+        width: 100px;
+        height: 100px;
+    }
+}

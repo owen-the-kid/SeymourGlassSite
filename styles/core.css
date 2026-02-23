@@ -1,0 +1,24 @@
+@import url(https://db.onlinewebfonts.com/c/08d650113a671928fa80a338975338ec?family=Trade+Gothic+Next+Rust+W01+Hv);
+
+header nav ul
+{
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header nav ul li a
+{
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    color: inherit;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav ul li img
+{
+    width: 250px;
+    height: auto;
+}

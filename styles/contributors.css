@@ -1,0 +1,96 @@
+#contributorsArticle
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#contributorsArticle h1
+{
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contributorsArticle > p
+{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+    max-width: 600px;
+}
+
+.contributor-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.profile-card
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.profile-image
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-info
+{
+    flex: 1;
+}
+
+.profile-info h3
+{
+    margin: 0 0 10px 0;
+    font-family: "Trade Gothic Next Rust W01 Hv";
+    font-size: 1.3em;
+}
+
+.profile-info .role
+{
+    margin: 0 0 10px 0;
+    color: #aaa;
+    font-style: italic;
+    font-size: 0.95em;
+}
+
+.profile-info .description
+{
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px)
+{
+    .profile-card
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image
+    {
+        width: 100px;
+        height: 100px;
+    }
+}
