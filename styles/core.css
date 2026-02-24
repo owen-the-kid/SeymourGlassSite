@@ -1,4 +1,13 @@
 @import url(https://db.onlinewebfonts.com/c/08d650113a671928fa80a338975338ec?family=Trade+Gothic+Next+Rust+W01+Hv);
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=IBM+Plex+Mono:wght@400;600&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --font-trade-gothic: "Trade Gothic Next Rust W01 Hv";
+    --font-courier: "Courier Prime", monospace;
+    --font-ibm-plex: "IBM Plex Mono", monospace;
+    --font-space-mono: "Space Mono", monospace;
+    --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 header nav ul
 {

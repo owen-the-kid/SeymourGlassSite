@@ -47,10 +47,9 @@ body::before
 
 #aboutArticle > p
 {
-    line-height: 1.8;
-    font-size: 1.05em;
-    margin-bottom: 20px;
+    font-family: "Courier Prime", monospace;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 #aboutArticle a
@@ -102,6 +101,7 @@ body::before
 
 .profile-info .role
 {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0 0 10px 0;
     color: #aaa;
     font-style: italic;
@@ -110,9 +110,19 @@ body::before
 
 .profile-info .description
 {
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     line-height: 1.6;
 }
+
+.profile-link
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
 
 @media (max-width: 600px)
 {
